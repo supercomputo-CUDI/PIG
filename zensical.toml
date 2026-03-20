@@ -1,0 +1,38 @@
+[project]
+site_name = "Documentación de prueba para PIG"
+site_url = "https://supercomputo-cudi.github.io/PIG"
+
+nav = [
+    {"Principal" = "index.md"},
+    { "Acceso al cluster de PIG" = [
+        "cluster_access/01_linux.md",
+        "cluster_access/02_windows.md",
+        "cluster_access/03_my_fist_pod.md"
+    ]}
+]
+
+# -- Custom colors ---
+extra_css = ["stylesheets/extra.css"]
+
+[project.theme]
+font.text = "Merriweather Sans"
+font.code = "JetBrains Mono"
+language = "es"
+logo = "assets/images/minilogo_pig.png"
+favicon = "assets/images/favicon_pig.png"
+
+# --- Light Mode Palette ---
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+# --- Dark Mode (Slate) Palette ---
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+

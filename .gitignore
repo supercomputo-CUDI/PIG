@@ -1,4 +1,10 @@
+# General
 *~
 .*
-
 !.gitignore
+!.github/
+
+# Docs
+site/
+
+# Code
