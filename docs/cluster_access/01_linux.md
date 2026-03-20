@@ -23,12 +23,12 @@ Con el primer comando lo hacemos ejecutable. Después, configuramos *kubernetes*
 
 Se nos pedirá una llave que nos dará el administrador del clúster, como se ve en la siguiente imagen
 
-![Set secret key](../assets/images/windows_access/secret_key.png){ style="display: block; margin: 0 auto; width: 1000px;"}
+![Set secret key](../assets/images/pig_access/secret_key.png){ style="display: block; margin: 0 auto; width: 1000px;"}
 
 !!! info "Importante"
     Para obtener la llave, favor de contactar al administrador del sistema de PIG.
 
-Por último, Agregamos la siguiente ruta de la herramienta de línea de comandos para *kubernetes*, llamada *krew*, al archivo de configuración de nuestrea *shell*, en este caso bash
+Por último, agregamos la siguiente ruta de la herramienta de línea de comandos para *kubernetes*, llamada *krew*, al archivo `~/.bashrc` (configura nuestra *shell* de bash) 
 
 ```bash
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
@@ -48,11 +48,11 @@ kubectl get pods
 
 Al ejecutar el comando se abrirá una página nueva en su navegador predeterminado como la siguiente
 
-![Keycloak connection](../assets/images/windows_access/keycloak.png){ style="display: block; margin: 0 auto; width: 1000px;"}
+![Keycloak connection](../assets/images/pig_access/keycloak.png){ style="display: block; margin: 0 auto; width: 1000px;"}
 
 Donde deberá ingresar las credenciales de su cuenta en PIG proporcionadas por el administrador. Si la conexión fue exitosa en la terminal obtendrá el resultado del comando de *kubernetes*
 
-![Success connection](../assets/images/windows_access/success_con.png){ style="display: block; margin: 0 auto; width: 1000px;"}
+![Success connection](../assets/images/pig_access/success_con.png){ style="display: block; margin: 0 auto; width: 1000px;"}
 
 Este comando nos muestra los pods actuales en PIG.
 
