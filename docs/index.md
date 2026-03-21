@@ -1,4 +1,4 @@
-# PIG, Plataforma para la Investigación con GPUs
+# <span class="pig-letter">P</span>lataforma para la <span class="pig-letter">I</span>nvestigación con <span class="pig-letter">G</span>PUs
 
 [//]: # (![Page under construction](assets/images/under_construction.png){ style="display: block; margin: 0 auto; width: 500px; border-radius: 10px" })
 
