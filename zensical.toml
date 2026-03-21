@@ -22,6 +22,7 @@ font.code = "JetBrains Mono"
 language = "es"
 logo = "assets/images/minilogo_pig.png"
 favicon = "assets/images/favicon_pig.png"
+custom_dir = "docs/overrides"
 
 # --- Light Mode Palette ---
 [[project.theme.palette]]
