@@ -1,6 +1,8 @@
 [project]
 site_name = "Documentación de prueba para PIG"
 site_url = "https://supercomputo-cudi.github.io/PIG"
+repo_url = "https://github.com/supercomputo-CUDI/PIG"
+repo_name = "CUDI/PIG"
 
 nav = [
     {"Principal" = "index.md"},
@@ -12,8 +14,7 @@ nav = [
     {"Agregar nodo a PIG" = "worker_node/01_init.md"}
 ]
 
-# -- Custom colors ---
-extra_css = ["stylesheets/extra.css"]
+extra_css = ["stylesheets/extra.css"] # Custom colors
 
 [project.theme]
 font.text = "Merriweather Sans"
@@ -37,3 +38,5 @@ toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
 
 
+[project.theme.icon]
+repo = "fontawesome/brands/github-alt"
