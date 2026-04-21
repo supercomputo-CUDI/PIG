@@ -1,4 +1,4 @@
-# Agregar un nuevo Worker node
+# Agregar un nuevo Worker node con Ubuntu
 
 ## Prerrequisitos
 

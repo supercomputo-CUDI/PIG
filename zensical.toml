@@ -11,7 +11,10 @@ nav = [
         "cluster_access/02_windows.md",
         "cluster_access/03_my_fist_pod.md"
     ]},
-    {"Agregar nodo a PIG" = "worker_node/01_init.md"}
+    {"Agregar nodo a PIG" = [
+         "worker_node/01_init_ubuntu.md",
+	 "worker_node/02_init_alma.md"
+	 ]}
 ]
 
 extra_css = ["stylesheets/extra.css"] # Custom colors
