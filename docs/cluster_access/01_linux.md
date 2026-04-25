@@ -61,13 +61,13 @@ kubectl config set-credentials oidc --exec-command=kubectl \
     --exec-arg="--oidc-issuer-url=https://sso.lamod.unam.mx/auth/realms/cudi" \
     --exec-arg="--oidc-client-id=k8s" \
     --exec-arg="--oidc-client-secret=$client_secret" \
-    --exec-arg="--skip-open-broswer" \
+    --exec-arg="--skip-open-browser" \
     --kubeconfig=$KUBECONFIG
 ```
 
 Debe correr el archivo de nuevo para que se apliquen los cambios.
 
-Por predeterminado, se redirrecciona al `localhost:8000` o `localhost:18000`. Si tiene ocupados esos puertos puede , en lugar de agregar la bandera `--skip-open-browser`, agregar la bandera `--listen-adrress=127.0.0.1:puerto_deseado`.
+Por predeterminado, se redirrecciona al `localhost:8000` o `localhost:18000`. Si tiene ocupados esos puertos puede , en lugar de agregar la bandera `--skip-open-browser`, agregar la bandera `--listen-address=127.0.0.1:puerto_deseado`.
 
 Si la conexión fue exitosa, en la terminal obtendrá el resultado del comando de *kubernetes*
 
