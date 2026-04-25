@@ -26,7 +26,7 @@ Con nuestra subsistema Linux _wsl_, procedemos a la instalación del cliente de 
 Empezamos clonando el repositorio de *github* y entramos al directorio descargado
 
 ```bash
-git clone https://github.com/supercomputo-CUDI/PIG.git
+git clone https://github.com/CUDI-PIG/PIG.git
 cd PIG-Resources
 ```
 
